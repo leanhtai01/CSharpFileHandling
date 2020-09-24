@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ReadingATextFile
 {
@@ -6,7 +7,17 @@ namespace ReadingATextFile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string path = "myfile.txt";
+
+            using (var sr = new StreamReader(path))
+            {
+                while (sr.EndOfStream != true)
+                {
+                    Console.WriteLine(sr.ReadLine());
+                }
+
+                sr.Close();
+            }
         }
     }
 }
