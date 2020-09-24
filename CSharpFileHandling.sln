@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingATextFileUsingTryCat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckFileExistsBeforeRead", "CheckFileExistsBeforeRead\CheckFileExistsBeforeRead.csproj", "{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingToATextFile", "WritingToATextFile\WritingToATextFile.csproj", "{150EFC2F-61AD-445E-9814-27083A897CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150EFC2F-61AD-445E-9814-27083A897CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150EFC2F-61AD-445E-9814-27083A897CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150EFC2F-61AD-445E-9814-27083A897CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150EFC2F-61AD-445E-9814-27083A897CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
