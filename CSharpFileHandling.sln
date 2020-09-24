@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingATextFile", "Reading
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingATextFileUsingTryCatch", "ReadingATextFileUsingTryCatch\ReadingATextFileUsingTryCatch.csproj", "{699DA25C-1B89-45D5-98EA-899C26676B6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckFileExistsBeforeRead", "CheckFileExistsBeforeRead\CheckFileExistsBeforeRead.csproj", "{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{699DA25C-1B89-45D5-98EA-899C26676B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699DA25C-1B89-45D5-98EA-899C26676B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699DA25C-1B89-45D5-98EA-899C26676B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE93136A-AEDD-48B1-AB16-2A3DA35A2463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
